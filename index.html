@@ -523,3 +523,73 @@ Xbase=30; //Clock width.
 </body>
 </html>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script LANGUAGE="JavaScript">
+
+<!-- Begin	   
+var messages = new Array(6); 
+messages[0] = "";
+messages[1] = "Disknet is a search engine and a community that creates programs.";
+messages[2] = "This entire website was created in Notepad!";	   
+messages[3] = "www.github.com";
+messages[4] = "Disknet Search is still in beta, and is not available to download by normal users yet. ";
+messages[5] = "Share this website with your friends to make disknet more popular!";
+function messageReveal() {
+var messageindex = document.messageForm.messagePick.selectedIndex
+document.messageForm.messageField.value = messages[messageindex];
+}
+// End -->
+</script>
+<!-- STEP TWO: Put this code into the BODY of your HTML document  -->
+<body>
+
+<center>
+<form name="messageForm">
+  <p><select name="messagePick" OnChange="messageReveal()">
+  <option value="0">Choose Option</option>
+  <option>About</option>
+  <option>How were we made</option>
+  <option>Our Website Host</option>
+  <option>Download Disknet Search</option>
+  <option>Share The Website!</option>
+  </select> <br>
+  </p>
+  <p><textarea name="messageField" rows="5" cols="41" wrap="virtual"></textarea></p>
+</form>
+</center>
+</body>
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
