@@ -8,8 +8,8 @@
 UserID and Password*/
 function pasuser(form) {
 if (form.id.value=="admin") { 
-if (form.pass.value=="lock123") {              
-location="http://www.disknet.tk" 
+if (form.pass.value=="booey") {              
+location="thankyou.htm" 
 } else {
 alert("Invalid Password")
 }
