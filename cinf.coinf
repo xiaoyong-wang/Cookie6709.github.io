@@ -12,7 +12,6 @@ document.write("Options: <br> ");
 <a href = "apply.htm"><button>Become a Disknet Administrator! </button></a> 
 <a href = "programs.htm"><button>View Disknet Programs </button></a> 
 <a href = "external.htm"><button>View our question search engine </button></a> 
-<a href = "cinf.coinf"><button>View this page in COINCIDENCE INFINITE Programming language </button></a> 
 </html>
 <script>
 
